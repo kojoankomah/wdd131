@@ -1,0 +1,120 @@
+.roboto-mine {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header,main,footer{
+    margin: 1rem auto;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 11, 95);
+}
+
+h1{
+    padding-left: 2rem;
+    width: 300px;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+}
+
+#menu-button{
+    display: block;
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu-button::before {
+    content: "☰";
+}
+
+#menu-button.show::before {
+    content: "❌";
+}
+
+.my-navs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(54, 11, 95);
+    color: #fff;
+}
+
+.my-navs a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+
+.my-navs a:hover {
+    text-decoration: underline;
+    color: #fff;
+    background-color: rgb(54, 11, 95);
+    border-radius: 5px;
+}
+
+.show a{
+    display: block;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+h2{
+    text-align: center;
+}
+
+#main-figure{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
+}
+figure img{
+    width: 100%;
+    height: auto;
+}
+figcaption{
+    color: purple;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    justify-content: center;
+    background-color: rgb(54, 11, 95);
+    color: white;
+    margin: 0;
+
+}
+
+#lastModified {
+    color: white;
+    background-color: rgb(54, 11, 95);
+}
