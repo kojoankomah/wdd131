@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Ankomah">
+    <meta name="description" content="A responsive web page about my country where I currently live">
+    <title>My Country</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            GHANA
+        </h1>
+    </header>
+    
+    <main>
+        <section class="main-container">
+    
+            <div class="data-section">
+                <h2>
+                    Data
+                </h2>
+                <ul>
+                    <li>Area: 587,041 sq km</li>
+                    <li>Population: 34,783,571</li>
+                    <li>Languages: Accra</li>
+                    <li>Currency: English</li>
+                    <li>Ghanaian Cedi</li>
+                    <li>Ghanaian Cedi</li>
+                    <li>Time Zone: UTC</li>
+                    <li>Calling Code: +233</li>
+                    <li>Internet TLD: .mg</li>
+                </ul>
+            </div>
+            <div class="weather-section">
+                <h2>
+                    Weather
+                </h2>
+                <img src="images/sun_6776133.svg" alt="Weather logo" id="logo">
+                <ul>
+                    <li>Temperature: 31°C (Sunny)</li>
+                    <li>Conditions: Warm</li>
+                    <li>Wind: Moderate breeze</li>
+                    <li>Humidity: 73% (Coastal area, more humid)</li>
+                    <li>Rainfall: 13 mm in January (very low)</li>
+                </ul>
+            </div>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/palace-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/palace-large.webp" media="(min-width: 501px)">
+                    <img src="images/palace-large.webp" alt="The presidential palace of Ghana" width="1000" height="500">
+                </picture>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            © <span id="currentyear"></span> 🥤👩🏾‍💻 Patrick Ankomah 🥤👩🏾‍💻 Cape Coast
+        </p>
+        <p id="lastModified">
+    
+        </p>
+    </footer>
+
+</body>
+</html>
+

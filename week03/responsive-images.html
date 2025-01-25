@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Ankomah">
+    <meta name="description" content="This is a web page that demonstrates responsive images">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <link rel="stylesheet" href="arrays-and-array-methods.js">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="min-width:1000px" srcset="images/hero-large.webp">
+                <source media="min-width:500px" srcset="images/hero-medium.webp">
+                <img srcset="images/hero-small.webp" alt="The Ghanaa Accra Temple" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
