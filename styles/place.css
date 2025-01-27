@@ -184,7 +184,11 @@ footer p {
         height: auto;
         object-fit: cover;
         position: relative;
+    }    
+    .emoticon {
+        display: none;
     }
+
 }
 
 
