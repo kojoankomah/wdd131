@@ -28,7 +28,7 @@ header nav{
     font-family: "Roboto", sans-serif;
 }
 
-#menu{
+#menu-button{
     display: block;
     font-size: 2rem;
     border: 0;
@@ -39,11 +39,11 @@ header nav{
     right: 1rem;
 }
 
-#menu::before {
+#menu-button::before {
     content: "☰";
 }
 
-#menu.show::before {
+#menu-button.show::before {
     content: "❌";
 }
 

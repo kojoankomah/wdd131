@@ -1,23 +1,23 @@
-// Get the current year
+// Get the current year for the copyright
 const currentYear = new Date().getFullYear();
+const yearSpan = document.getElementById("currentyear");
+yearSpan.textContent = currentYear; // Update the year dynamically
 
-// Update the first paragraph in the footer with the current year
-document.getElementById("currentyear").textContent = currentYear;
-
-// Get the document's last modified date
+// Get the last modified date of the document
 const lastModified = document.lastModified;
+const lastModifiedParagraph = document.getElementById("lastModified");
+lastModifiedParagraph.textContent = `Last modified: ${lastModified}`; // Update the last modified date
 
-// Update the second paragraph in the footer with the last modified date
-document.getElementById("lastModified").textContent = `Last Modified: ${lastModified}`;
 
-// navigation event click and toggle show
-const mainnav = document.querySelector(".navigation");
-const hambutton = document.querySelector("#menu");
+
+const mainnav = document.querySelector(".my-navs");
+const hambutton = document.querySelector("#menu-button");
 
 hambutton.addEventListener("click", () => {
     mainnav.classList.toggle("show");
     hambutton.classList.toggle("show");
 });
+
 
 const temples = [
     {
