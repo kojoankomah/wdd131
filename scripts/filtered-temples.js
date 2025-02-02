@@ -25,80 +25,70 @@ const temples = [
       location: "Aba, Nigeria",
       dedicated: "2005, August, 7",
       area: 11500,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
     },
     {
       templeName: "Manti Utah",
       location: "Manti, Utah, United States",
       dedicated: "1888, May, 21",
       area: 74792,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
     },
     {
       templeName: "Payson Utah",
       location: "Payson, Utah, United States",
       dedicated: "2015, June, 7",
       area: 96630,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
     },
     {
       templeName: "Yigo Guam",
       location: "Yigo, Guam",
       dedicated: "2020, May, 2",
       area: 6861,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
     },
     {
       templeName: "Washington D.C.",
       location: "Kensington, Maryland, United States",
       dedicated: "1974, November, 19",
       area: 156558,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
     },
     {
       templeName: "Lima Perú",
       location: "Lima, Perú",
       dedicated: "1986, January, 10",
       area: 9600,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
     },
     {
       templeName: "Mexico City Mexico",
       location: "Mexico City, Mexico",
       dedicated: "1983, December, 2",
       area: 116642,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
     {
         templeName: "Salt Lake",
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 253000,
-        imageUrl:
-        "https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/320%2C/0/default"
+        imageUrl:"https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/320%2C/0/default"
     },
     {
         templeName: "Laie Hawaii",
         location: "Laie Hawaii",
         dedicated: "1919, November, 27",
         area: 47224,
-        imageUrl: 
-        "https://www.churchofjesuschrist.org/imgs/809f567ccf240d2f1c8e457e8c81fbd94ef96759/full/800%2C/0/default"
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/809f567ccf240d2f1c8e457e8c81fbd94ef96759/full/800%2C/0/default"
     },
     {
         templeName: "Bangkok Thailand",
         location: "Bangkok, Thailand",
         dedicated: "2023, October, 22",
         area: 48525,
-        imageUrl: 
-        "https://images-us-prod.cms.commerce.dynamics.com/cms/api/fswvqbgntk/imageFileData/search?fileName=/Products%2FPI85086975%5E00147%5E%5E%5E000_000_001.png&fallback=/Products/PI85086975_000_001.jpg,/Products/PI85086975_000_001.png,/Products/PI85086975_000_001.webp&w=0&h=772&q=80&m=6&f=jpg&cropfocalregion=true"
+        imageUrl: "https://images-us-prod.cms.commerce.dynamics.com/cms/api/fswvqbgntk/imageFileData/search?fileName=/Products%2FPI85086975%5E00147%5E%5E%5E000_000_001.png&fallback=/Products/PI85086975_000_001.jpg,/Products/PI85086975_000_001.png,/Products/PI85086975_000_001.webp&w=0&h=772&q=80&m=6&f=jpg&cropfocalregion=true"
     },
     {
         templeName: "Accra Ghana",
