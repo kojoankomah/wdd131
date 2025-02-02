@@ -79,7 +79,7 @@ const temples = [
     {
         templeName: "Salt Lake",
         location: "Salt Lake City, Utah, United States",
-        dedicated: "6 April 1893",
+        dedicated: "1893, April, 6",
         area: 253000,
         imageUrl:
         "https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/320%2C/0/default"
@@ -87,7 +87,7 @@ const temples = [
     {
         templeName: "Laie Hawaii",
         location: "Laie Hawaii",
-        dedicated: "27 November 1919",
+        dedicated: "1919, November, 27",
         area: 47224,
         imageUrl: 
         "https://www.churchofjesuschrist.org/imgs/809f567ccf240d2f1c8e457e8c81fbd94ef96759/full/800%2C/0/default"
@@ -95,7 +95,7 @@ const temples = [
     {
         templeName: "Bangkok Thailand",
         location: "Bangkok, Thailand",
-        dedicated: "22 October 2023",
+        dedicated: "2023, October, 22",
         area: 48525,
         imageUrl: 
         "https://images-us-prod.cms.commerce.dynamics.com/cms/api/fswvqbgntk/imageFileData/search?fileName=/Products%2FPI85086975%5E00147%5E%5E%5E000_000_001.png&fallback=/Products/PI85086975_000_001.jpg,/Products/PI85086975_000_001.png,/Products/PI85086975_000_001.webp&w=0&h=772&q=80&m=6&f=jpg&cropfocalregion=true"
