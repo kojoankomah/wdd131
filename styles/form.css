@@ -98,7 +98,7 @@ fieldset{
 .optional{
     color: #552e2e;
 }
-input[type="submit"]{
+#submit-button{
     background-color: #03045E;
     color: white;
     font-size: 16px;
@@ -111,7 +111,7 @@ input[type="submit"]{
     align-self: center;
 }
 
-input[type="submit"]:hover {
+#submit-button:hover {
     background-color: #90E0EF;
     color: #03045E;
     font-size: 22px;
