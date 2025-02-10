@@ -1,0 +1,108 @@
+.roboto-mie {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #CAF0F8;
+    color: #000000;
+}
+
+header{
+    background-color: #03045E;
+    padding: 22px;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppns', sans-serif;
+    text-align: center;
+    color: white;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#schema{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+#wireframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: fit-content;
+}
+
+img{
+    width: 100%;
+    /* max-width: 500px; */
+    height: auto;
+}
+
+p,ul{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin:1rem ;
+    height: auto;
+}
+
+h2{
+    font-size: 28px;
+    margin: 1rem;
+    width: 270px;
+    border-bottom: 3px solid grey;
+}
+h3{
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+ul{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    list-style: circle;
+}
+
+
+footer,#currentyear{
+    background-color: #023E8A;
+    color: #fff;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
