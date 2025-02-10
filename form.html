@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Ankomah">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - HTML form with a confirmation page">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>WDD 131 - HTML form with a confirmation page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Product Review
+        </h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <label for="product">Product Name:</label>
+            <select name="product" id="product" required>
+                <option value="" disabled selected>Select a Product...</option>
+            </select>
+            <fieldset>
+                <legend>Overall Rating:</legend>
+                <div class="ratings">
+                    <label for="rate1"><input id="rate1" type="radio" name="rating" value="1" required>😣</label>
+                    <label for="rate2"><input id="rate2" type="radio" name="rating" value="2">😕</label>
+                    <label for="rate3"><input id="rate3" type="radio" name="rating" value="3">🙂</label>
+                    <label for="rate4"><input id="rate4" type="radio" name="rating" value="4">🤩</label>
+                    <label for="rate5"><input id="rate5" type="radio" name="rating" value="5">😍</label>
+                </div>
+
+            </fieldset>
+
+            <label for="installation-date">Date of Installation:</label>
+            <input type="date" id="installation-date" name="installation-date" required>
+
+
+            <fieldset>
+                <legend>Did you find any feature useful? <br>(Check all that apply):</legend>
+                <label><input id="customer-support" type="checkbox" name="features" value="customer-support">Customer Support</label>
+                <label><input id="design" type="checkbox" name="features" value="design">Design</label>
+                <label><input id="performance" type="checkbox" name="features" value="performance"> Performance</label>
+                <label><input id="affordability" type="checkbox" name="features" value="affordability"> Affordability</label>
+                <label><input id="warranty" type="checkbox" name="features" value="warranty"> Warranty</label>
+                <label><input id="compatibility" type="checkbox" name="features" value="compatibility"> Compatibility</label>            
+            </fieldset>
+
+            <label for="review">Write a Review <span class="optional">(Optional)</span></label>
+            <textarea id="review" name="review" rows="4" ></textarea>
+
+            <label for="username">Your Name <span class="optional">(Optional)</span></label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Name">
+
+            <input type="submit" value="Submit Your Review">
+
+        </form>
+    </main>
+    <footer>
+        <p>
+            © <span id="currentyear"></span> 🥤👩🏾‍💻 Patrick Ankomah 🥤👩🏾‍💻 Cape Coast
+        </p>
+        <p id="lastModified">
+    
+        </p>
+    </footer>
+
+</body>
+</html>
