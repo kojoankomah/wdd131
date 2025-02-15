@@ -85,3 +85,24 @@ hambutton.addEventListener("click", () => {
     mainnav.classList.toggle("show");
     hambutton.classList.toggle("show");
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Selecting elements
+    const savedNameInput = document.getElementById("savedName");
+    const saveButton = document.getElementById("saveButton");
+    const greeting = document.getElementById("greeting");
+
+    // Load stored name on page load
+    if (localStorage.getItem("username")) {
+        greeting.textContent = `Welcome back, ${localStorage.getItem("username")}!`;
+    }
+
+    // Save name to localStorage when the button is clicked
+    saveButton.addEventListener("click", () => {
+        const name = savedNameInput.value.trim();
+        if (name) {
+            localStorage.setItem("username", name);
+            greeting.textContent = `Welcome back, ${name}!`;
+        }
+    });
+});
