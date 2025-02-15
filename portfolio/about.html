@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Ankomah">
+    <meta name="description" content="Showcasing my web development projects.">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    <title>Personal Portfolio Page</title>
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="detail-container">
+            <div class="about-container">
+                <!-- Left: Image -->
+                <div class="about-image">
+                    <img id="profile_pic" src="/images/portfolio_dp.jpg" alt="Profile Picture">
+                </div>
+            
+                <!-- Right: About Text -->
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>
+                        Hi, I'm Patrick Ankomah, a passionate web developer dedicated to crafting clean, responsive, and
+                        user-friendly websites.
+                    </p>
+                </div>
+            </div>
+            <div id="about">
+                <div class="left-side">
+                    <div class="card">
+                        <!-- Skills Section -->
+                        <section class="skills">
+                            <h2>Skills</h2>
+                            <ul>
+                                <li>HTML, CSS, JavaScript</li>
+                                <li>C# Programming with Classes</li>
+                                <li>Node.js, Express.js</li>
+                                <li>Python</li>
+                                <li>Version Control (Git, GitHub)</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="card">
+                        <!-- Education Section -->
+                        <section class="education">
+                            <h2>Education</h2>
+                            <p><strong>Bachelor's Degree in Software Development</strong></p>
+                            <p>
+                                <strong>Institution:</strong> Brigham Young University Idaho
+                            </p>
+                            <p>
+                                <strong>Year:</strong> 2027
+                            </p>
+                            <p>
+                                <strong>Certifications:</strong> IC3, Web Development Certifications
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                
+                <!-- Experience Section -->
+                <section class="experience">
+                    <div class="card">
+                        <h2>Experience</h2>
+                        <p><strong>Data Entry Specialist</strong></p>
+                        <p>
+                            <strong>Company:</strong> SpringBoard
+                        </p>
+                        <p>
+                            <strong>Duration:</strong> Oct.2024 - Present
+                
+                        </p>
+                        <p>
+                            <strong>Responsibilities:</strong> Utilizing source linker and managing
+                            <br>records indexed through advanced AI technology
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>
+            © <span id="currentyear"></span> 🥤👩🏾‍💻 Patrick Ankomah 🥤👩🏾‍💻 Cape Coast
+        </p>
+        <p id="lastModified">
+
+        </p>
+    </footer>
+</body>
+
+</html>

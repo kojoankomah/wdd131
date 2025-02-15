@@ -42,7 +42,7 @@ header nav{
 #menu-button::before {
     content: "☰";
 }
-
+class="my-navs"
 #menu-button.show::before {
     content: "❌";
 }
